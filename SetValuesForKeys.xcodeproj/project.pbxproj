@@ -12,6 +12,7 @@
 		D642A3AF1E31A14C0020E9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D642A3AD1E31A14C0020E9C2 /* Main.storyboard */; };
 		D642A3B11E31A14C0020E9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D642A3B01E31A14C0020E9C2 /* Assets.xcassets */; };
 		D642A3B41E31A14C0020E9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D642A3B21E31A14C0020E9C2 /* LaunchScreen.storyboard */; };
+		D642A3BC1E320FD80020E9C2 /* BBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642A3BB1E320FD80020E9C2 /* BBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D642A3B01E31A14C0020E9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D642A3B31E31A14C0020E9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D642A3B51E31A14C0020E9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D642A3BB1E320FD80020E9C2 /* BBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D642A3A91E31A14C0020E9C2 /* AppDelegate.swift */,
 				D642A3AB1E31A14C0020E9C2 /* ViewController.swift */,
+				D642A3BB1E320FD80020E9C2 /* BBViewController.swift */,
 				D642A3AD1E31A14C0020E9C2 /* Main.storyboard */,
 				D642A3B01E31A14C0020E9C2 /* Assets.xcassets */,
 				D642A3B21E31A14C0020E9C2 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D642A3BC1E320FD80020E9C2 /* BBViewController.swift in Sources */,
 				D642A3AC1E31A14C0020E9C2 /* ViewController.swift in Sources */,
 				D642A3AA1E31A14C0020E9C2 /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = SetValuesForKeys/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.SetValuesForKeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = SetValuesForKeys/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.SetValuesForKeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +306,7 @@
 				D642A3BA1E31A14C0020E9C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
